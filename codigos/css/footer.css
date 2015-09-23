@@ -1,0 +1,15 @@
+#pe {
+	float: left;
+  	display: block;
+	width: 100%;
+	background-color: gray;
+}
+
+.pezin {
+  display: block;
+  width: 200px;
+  height: auto;  
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+}

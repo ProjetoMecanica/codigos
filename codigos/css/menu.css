@@ -1,0 +1,94 @@
+#menu{
+position:absolute;
+margin:1% 0;
+}
+#cssmenu,#cssmenu ul,
+#cssmenu li,#cssmenu a {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 14px;
+  position: relative;
+}
+#cssmenu a {
+  line-height: 1.3;
+}
+#cssmenu {
+  width: 250px;
+  background: #CDBA96;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 3px;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+#cssmenu > ul > li {
+  margin: 0 0 2px 0;
+}
+#cssmenu > ul > li:last-child {
+  margin: 0;
+}
+#cssmenu > ul > li > a {
+  font-size: 15px;
+  display: block;
+  color: #ffffff;
+  text-shadow: 0 1px 1px #000;
+  background: #565656;
+  border: 1px solid #000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#cssmenu > ul > li > a > span {
+  display: block;
+  border: 1px solid #CDBA96;
+  padding: 6px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+  background: #FFEFA0;
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+  border: 1px solid #79980d;
+}
+#cssmenu > ul > li.active > a span {
+  border: 1px solid #97be10;
+}
+#cssmenu > ul > li.has-sub > a span {
+  background: url(../images/icon_plus.png) 98% center no-repeat;
+}
+#cssmenu > ul > li.has-sub.active > a span {
+  background: url(../images/icon_minus.png) 98% center no-repeat;
+}
+/* Sub menu */
+#cssmenu ul ul {
+  padding: 5px 12px;
+  display: none;
+}
+#cssmenu ul ul li {
+  padding: 3px 0;
+}
+#cssmenu ul ul a {
+  display: block;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+}
+#cssmenu ul ul a:hover {
+  color: #FFEFA0;
+}

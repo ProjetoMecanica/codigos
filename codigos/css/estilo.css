@@ -1,0 +1,15 @@
+@import url("top.css");
+@import url("conteudo.css");
+@import url("menu.css");
+@import url("footer.css");
+*{
+	margin:0px;
+	padding:0px;
+}
+#tudo{
+	width:100%;
+}
+#conteudo{
+width:98%;
+float:left;
+}
