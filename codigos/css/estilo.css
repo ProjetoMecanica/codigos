@@ -13,3 +13,89 @@
 width:98%;
 float:left;
 }
+#formu{
+width:98%;
+padding:2px;
+}
+.caixa{
+width:70%;
+float:left;
+padding:5px;
+}
+.etiqueta{
+width:20%;
+float:left;
+
+}
+.linhaEtiqueta{
+margin:1% 0.5%;
+width:98%;
+float:left;
+}
+
+form label {
+    font-family:verdana, sans-serif;
+    color: black;
+    font-weight:bold;
+    float:left;
+}
+
+textarea{
+	resize: none;
+}
+
+.botaoConfirma {
+    padding:1%;
+    background-color:white;
+    border:thin solid #8A8A8A;
+    color:#8A8A8A;
+    font-weight:bold;
+	float:right;
+	margin:1%;
+}
+.botaoConfirma:hover {
+    padding:1%;
+    background-color:#F0F0F0;
+    border:thin solid #8A8A8A;
+    color:#000;
+    font-weight:bold;
+	margin:1%;
+}
+
+.botaoLimpar{
+    padding:1%;
+    background-color:#EAEAEA;
+    border:thin solid #BDBDBD;
+    color:#8A8A8A;
+    font-weight:bold;
+	float:right;
+	margin:1% 8% 1% 1%;
+}
+.botaoLimpar:hover {
+    padding:1%;
+    background-color:#BDBDBD;
+    border:thin solid #BDBDBD;
+    color:#000;
+    font-weight:bold;
+	margin:1% 8% 1% 1%;
+}
+
+.msgErro{
+width:95%;
+border:1px solid #550000;
+padding:1%;
+color:#550000;
+background-color:#D46A6A;
+margin:0.5%;
+float:left;
+}
+
+.msgConfirm{
+width:95%;
+border:1px solid #004304;
+padding:1%;
+color:#004304;
+background-color:#86C98A;
+margin:0.5%;
+float:left;
+}

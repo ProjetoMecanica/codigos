@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="css/estilo.css" />
 		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		<script src="js/script.js"></script>
-		<script src="js/valida.js"></script>
 	</head>
 	<body>
 		<div id="tudo">
@@ -19,7 +18,7 @@
 			</header>
 				<div id="conteudo">
 					<?php include_once('menu.php');?>
-					<?php include_once('sis/conteudo.php');?>
+					<?php include_once('sis/cadVeiculo.php');?>
 					
 				</div>
 			
