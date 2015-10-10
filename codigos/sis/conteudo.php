@@ -62,6 +62,12 @@
 		 <textarea name="txtUpload" class="caixa" rows="6"></textarea>
 		</div>
 		<div class="linhaEtiqueta">
+		 <div class="etiqueta">CAIXA1:</div>
+		 <input type="text" name="txtCaixaPeq1" class="caixaPequena">
+		<div class="etiquetaPequena">CAIXA2:</div>
+		 <input type="text" name="txtCaixaPeq1" class="caixaPequena">
+		</div>
+		<div class="linhaEtiqueta">
 			<input type="reset" value="Limpar" name="btnLimpar" class="botaoLimpar">
 			<input type="submit" value="Enviar" name="btnEnviar" class="botaoConfirma">
 		</div>

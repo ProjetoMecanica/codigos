@@ -19,7 +19,7 @@
          <li class='last'><a href='#'><span>texto</span></a></li>
       </ul>
    </li>
-   <li class='last'><a href='#'><span>texto</span></a></li>
+   <li class='last'><a href='pagopniao.php'><span>Regitrar opinião serviço</span></a></li>
    <li class='last'><a href='#'><span>texto</span></a></li>
    <li class='last'><a href='#'><span>texto</span></a></li>
 </ul>

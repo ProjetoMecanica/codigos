@@ -22,10 +22,19 @@ width:70%;
 float:left;
 padding:5px;
 }
+.caixaPequena{
+width:28.1%;
+float:left;
+padding:5px;
+}
 .etiqueta{
 width:20%;
 float:left;
-
+}
+.etiquetaPequena{
+width:10%;
+float:left;
+margin-left:2%;
 }
 .linhaEtiqueta{
 margin:1% 0.5%;
